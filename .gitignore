@@ -1,0 +1,60 @@
+# OS files
+.DS_Store
+desktop.ini
+Thumbs.db
+*.lnk
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+*.cache
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+*.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Build outputs
+dist/
+build/
+.next/
+.vite/
+.turbo/
+
+# Test and coverage outputs
+coverage/
+test-results/
+playwright-report/
+blob-report/
+.playwright/
+
+# Editor and local tool state
+.claude/
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Private local files
+private/
